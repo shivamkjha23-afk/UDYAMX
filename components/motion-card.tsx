@@ -1,0 +1,1 @@
+'use client';import { motion } from 'framer-motion';export function MotionCard({children,hover=false}:{children:React.ReactNode;hover?:boolean}){return <motion.div whileHover={hover?{y:-8,scale:1.02}:undefined} className="glass rounded-3xl p-7 text-slate-300">{children}</motion.div>}
