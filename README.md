@@ -1,43 +1,38 @@
 # NUMSMU Labs Website
 
-A concise pitch website for NUMSMU Labs, designed for GitHub Pages and scaffolded as a Next.js project for future development.
+Production-ready Next.js 15+ website for NUMSMU Labs, India's innovation-to-industry ecosystem.
 
-## What to deploy on GitHub Pages
+## Stack
+- Next.js App Router with React Server Components
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Shadcn-style component primitives
+- Lucide Icons
 
-If you want the site to work immediately from **Settings → Pages → Deploy from a branch**, choose:
-
-- Branch: `main`
-- Folder: `/ (root)`
-
-The root `index.html` is a complete production-style landing page, so GitHub Pages will show the website instead of this README.
-
-## Optional Next.js workflow
-
-The repository also includes a Next.js App Router implementation and a GitHub Actions workflow for static export. To use that path, set **Settings → Pages → Source** to **GitHub Actions** and run the deploy workflow.
-
-## Local development
-
+## Run locally
 ```bash
 npm install
 npm run dev
 ```
 
-## Static build
-
+## Production
 ```bash
 npm run build
+npm run start
 ```
 
-Next.js export output is generated in `out/`.
+## Deploy on Vercel
+1. Import this repository into Vercel.
+2. Use the default Next.js framework preset.
+3. Set the production domain to `numsmu.com` or your chosen domain.
+4. Deploy. Sitemap and robots are generated automatically.
 
-## Analytics
-
-The site includes consent-based analytics only. It does not silently track visitors. Configure your analytics endpoint before deployment if you want to collect anonymous events.
-
-
-## Current site direction
-
-- Short pitch-first copy for cofounders and investors.
-- MSME problem intake form as the primary call to action.
-- Live-style India map for MSME clusters and pilot signals.
-- No product claims; current sections describe pilot themes to validate.
+## Pages
+- `/` landing page with hero, animated network, India innovation map, divisions, platform, products, impact and founder sections.
+- `/co-founder` recruitment page with roles and application form.
+- `/msme-services` detailed MSME offerings.
+- `/innovation-platform` AI education platform.
+- `/product-development` product studio lifecycle.
+- `/resources` resource listing with search/filter UI.
+- `/contact` segmented contact form.
