@@ -1,0 +1,2 @@
+import Link from 'next/link';import { cn } from '@/lib/utils';
+export function Button({href,children,variant='primary',className}:{href?:string;children:React.ReactNode;variant?:'primary'|'ghost';className?:string}){const c=cn('focus-ring inline-flex min-h-11 items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition',variant==='primary'?'bg-electric text-navy hover:bg-sky-300':'glass hover:bg-white/10',className);return href?<Link className={c} href={href}>{children}</Link>:<button className={c}>{children}</button>}

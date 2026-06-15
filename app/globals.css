@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:dark;scroll-behavior:smooth} body{background:#030712;color:white} .glass{background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.14);box-shadow:0 24px 80px rgba(0,0,0,.35);backdrop-filter:blur(18px)} .grid-bg{background-image:linear-gradient(rgba(55,168,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(55,168,255,.08) 1px,transparent 1px);background-size:48px 48px}.text-gradient{background:linear-gradient(90deg,#fff,#7dd3fc,#37a8ff);-webkit-background-clip:text;background-clip:text;color:transparent}.focus-ring:focus-visible{outline:3px solid #37a8ff;outline-offset:3px}
